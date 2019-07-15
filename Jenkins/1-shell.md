@@ -1,4 +1,4 @@
-# Shell을 이용한 첫번째 프로젝트 
+# 1.Shell을 이용한 첫번째 프로젝트 
 
 이 실습에서는 shell을 이용한 간단한 프로젝트를 생성해 보고, Jenkins의 기본 동작 방식과 기능을 확인해 본다.
 
@@ -17,6 +17,9 @@
  - Jenkins UI 접속   
    http://localhost:8080
 
+
+> 참고 : `-v jenkins-data:/var/jenkins_home` 옵션은 컨테이너의 `/var/jenkins_home` 디렉토리를 docker 의 볼륨으로 설정한다. (호스트의 `/var/lib/docker/volumes/jenkins-data`)  
+   `-v "$HOME":/home` 는 호스트의 $HOME 디렉토리를 컨테이너의 `/home`와 매핑한다. 
 
 
 ### Step 1 :  Jenkins 화면에서 **New Item** 클릭

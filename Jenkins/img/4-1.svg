@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="736px" height="887px" viewBox="0 0 736 887" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Jenkins CD on Container Engine Architecture Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M238.625,175 L2.875,175 C1.2865625,175 0,174.129861 0,173.055556 L0,1.94444444 C0,0.870138889 1.2865625,0 2.875,0 L238.625,0 C240.213437,0 241.5,0.870138889 241.5,1.94444444 L241.5,173.055556 C241.5,174.129861 240.213437,175 238.625,175" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="241.5" height="175" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="136" height="48" rx="2"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="136" height="48" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <linearGradient x1="50%" y1="1.55913058e-15%" x2="50%" y2="99.8449301%" id="linearGradient-11">
+            <stop stop-color="#4387FD" offset="0%"></stop>
+            <stop stop-color="#4683EA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.337000781,14.3112895 C-0.112334245,13.499859 -0.112334245,12.5001353 0.337000781,11.6887048 L6.07929766,1.31898684 C6.52863346,0.507557268 7.35903893,0.00769659857 8.25770859,0.00769736842 L19.7422914,0.00769736842 C20.6409611,0.00769659857 21.4713665,0.507557268 21.9207023,1.31898684 L27.6629992,11.6887105 C28.1123342,12.500141 28.1123342,13.4998647 27.6629992,14.3112952 L21.9207023,24.6810132 C21.4713679,25.4924449 20.6409622,25.9923079 19.7422914,25.9923083 L8.25770859,25.9923083 C7.3590378,25.9923079 6.52863207,25.4924449 6.07929766,24.6810132 L0.337000781,14.3112895 Z" id="path-12"></path>
+        <path d="M239.125,175 L3.375,175 C1.7865625,175 0.5,174.129861 0.5,173.055556 L0.5,1.94444444 C0.5,0.870138889 1.7865625,0 3.375,0 L239.125,0 C240.713437,0 242,0.870138889 242,1.94444444 L242,173.055556 C242,174.129861 240.713437,175 239.125,175" id="path-14"></path>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="241.5" height="175" fill="white">
+            <use xlink:href="#path-14"></use>
+        </mask>
+        <rect id="path-16" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-17" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-16"></use>
+        </mask>
+        <path d="M411.0056,175 L4.9518747,175 C2.21596393,175 0,174.129861 0,173.055556 L0,1.94444444 C0,0.870138889 2.21596393,0 4.9518747,0 L411.0056,0 C413.741511,0 415.957475,0.870138889 415.957475,1.94444444 L415.957475,173.055556 C415.957475,174.129861 413.741511,175 411.0056,175" id="path-18"></path>
+        <mask id="mask-19" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="415.957475" height="175" fill="white">
+            <use xlink:href="#path-18"></use>
+        </mask>
+        <rect id="path-20" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-20"></use>
+        </mask>
+        <rect id="path-22" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-23" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-22"></use>
+        </mask>
+        <rect id="path-24" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-25" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-24"></use>
+        </mask>
+        <rect id="path-26" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-26"></use>
+        </mask>
+        <rect id="path-28" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-29" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <rect id="path-30" x="0" y="0" width="169" height="32" rx="2"></rect>
+        <mask id="mask-31" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="32" fill="white">
+            <use xlink:href="#path-30"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Jenkins-CD-on-Container-Engine-Architecture-Copy" transform="translate(0.000000, -4.000000)">
+            <g id="Group-3" transform="translate(189.000000, 121.000000) scale(-1, -1) rotate(90.000000) translate(-189.000000, -121.000000) translate(185.000000, 84.000000)">
+                <path d="M4,72.5 L4,0" id="Stroke-242" stroke="#616161"></path>
+                <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 71.271500) rotate(90.000000) translate(-4.032000, -71.271500) " points="2.546 68 2 68.586 4.89 71.271 2 73.957 2.546 74.543 6.064 71.271"></polygon>
+            </g>
+            <g id="Group-3-Copy" transform="translate(416.000000, 121.000000) scale(-1, -1) rotate(90.000000) translate(-416.000000, -121.000000) translate(412.000000, 84.000000)">
+                <path d="M4,72.5 L4,0" id="Stroke-242" stroke="#616161"></path>
+                <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 71.271500) rotate(90.000000) translate(-4.032000, -71.271500) " points="2.546 68 2 68.586 4.89 71.271 2 73.957 2.546 74.543 6.064 71.271"></polygon>
+            </g>
+            <g id="Group-16" transform="translate(129.000000, 228.000000)">
+                <use id="Fill-5-Copy-2" stroke="#616161" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2.5" xlink:href="#path-1"></use>
+                <path d="M30.1904762,163 C28.9802381,163 28,162.358583 28,161.566667 L28,35.4333333 C28,34.6414167 28.9802381,34 30.1904762,34 L209.809524,34 C211.019762,34 212,34.6414167 212,35.4333333 L212,161.566667 C212,162.358583 211.019762,163 209.809524,163 L30.1904762,163 Z" id="Fill-5-Copy-3" stroke="#E0E0E0" fill="#E1F5FE"></path>
+                <text id="Container-Engine-Copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="58" y="58">Kubernetes Engine</tspan>
+                </text>
+                <text id="Dev-Environment" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="70" y="22">Dev Environment</tspan>
+                </text>
+                <g id="Group-10-Copy-8" transform="translate(35.000000, 123.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <text id="Frontend-Deployment" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="27.4179687" y="21">Frontend Deployment</tspan>
+                    </text>
+                </g>
+                <g id="Group-10-Copy" transform="translate(35.000000, 70.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <text id="Backend-Deployment" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="28.1591797" y="21">Backend Deployment</tspan>
+                    </text>
+                </g>
+                <g id="Group-3-Copy-3" transform="translate(114.000000, 106.000000)">
+                    <path d="M4,12.5 L4,1.48864222" id="Stroke-242" stroke="#616161"></path>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 11.271500) rotate(90.000000) translate(-4.032000, -11.271500) " points="2.546 8 2 8.586 4.89 11.271 2 13.957 2.546 14.543 6.064 11.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(4.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-4.032000, -2.271500) " points="2.546 -1 2 -0.414 4.89 2.271 2 4.957 2.546 5.543 6.064 2.271"></polygon>
+                </g>
+            </g>
+            <polygon id="Fill-244" fill="#616161" points="158.7855 362 158.2395 362.586 161.1295 365.271 158.2395 367.957 158.7855 368.543 162.3035 365.271"></polygon>
+            <g id="Group-2" transform="translate(229.000000, 69.000000)">
+                <path d="M2.19047619,73 C0.980238095,73 0,72.6370278 0,72.1888889 L0,0.811111111 C0,0.362972222 0.980238095,0 2.19047619,0 L181.809524,0 C183.019762,0 184,0.362972222 184,0.811111111 L184,72.1888889 C184,72.6370278 183.019762,73 181.809524,73 L2.19047619,73 Z" id="Fill-5" stroke="#E0E0E0" fill="#E1F5FE"></path>
+                <text id="Dev-Tools" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="36" y="21">Dev Tools</tspan>
+                </text>
+                <g id="Group-10-Copy-9" transform="translate(8.000000, 35.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    <text id="Code-Repository" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="40.6953125" y="21">Code Repository</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-17" transform="translate(446.000000, 272.000000)" fill="#E1F5FE" stroke="#E0E0E0">
+                <g id="Group-2-Copy">
+                    <path d="M2.19047619,73 C0.980238095,73 0,72.6370278 0,72.1888889 L0,0.811111111 C0,0.362972222 0.980238095,0 2.19047619,0 L181.809524,0 C183.019762,0 184,0.362972222 184,0.811111111 L184,72.1888889 C184,72.6370278 183.019762,73 181.809524,73 L2.19047619,73 Z" id="Fill-5"></path>
+                </g>
+            </g>
+            <polygon id="Fill-244" fill="#616161" transform="translate(534.771500, 303.032000) rotate(90.000000) translate(-534.771500, -303.032000) " points="533.2855 299.7605 532.7395 300.3465 535.6295 303.0315 532.7395 305.7175 533.2855 306.3035 536.8035 303.0315"></polygon>
+            <g id="Group-2-Copy-2" transform="translate(317.000000, 774.000000)" stroke="#FAFAFA" fill="#FEF6E0">
+                <path d="M1.42857143,89 C0.639285714,89 0,88.5574722 0,88.0111111 L0,0.988888889 C0,0.442527778 0.639285714,0 1.42857143,0 L118.571429,0 C119.360714,0 120,0.442527778 120,0.988888889 L120,88.0111111 C120,88.5574722 119.360714,89 118.571429,89 L1.42857143,89 Z" id="Fill-5"></path>
+            </g>
+            <g id="Group-4" transform="translate(326.000000, 809.000000)">
+                <g id="Group" stroke="#E0E0E0" fill="#FFFFFF">
+                    <path d="M1.03438006,47.5 C0.737670136,47.5 0.496212121,46.827 0.496212121,46 L0.496212121,2 C0.496212121,1.173 0.737670136,0.5 1.03438006,0.5 L46.9580442,0.5 C47.2547541,0.5 47.4962121,1.173 47.4962121,2 L47.4962121,46 C47.4962121,46.827 47.2547541,47.5 46.9580442,47.5 L1.03438006,47.5 Z" id="Fill-1"></path>
+                </g>
+                <g id="Group-Copy" transform="translate(54.000000, 0.000000)" stroke="#E0E0E0" fill="#FFFFFF">
+                    <path d="M1.03438006,47.5 C0.737670136,47.5 0.496212121,46.827 0.496212121,46 L0.496212121,2 C0.496212121,1.173 0.737670136,0.5 1.03438006,0.5 L46.9580442,0.5 C47.2547541,0.5 47.4962121,1.173 47.4962121,2 L47.4962121,46 C47.4962121,46.827 47.2547541,47.5 46.9580442,47.5 L1.03438006,47.5 Z" id="Fill-1"></path>
+                </g>
+                <g id="laptop" transform="translate(8.000000, 13.000000)" fill="#616161">
+                    <path d="M27.5,19.25 C29.0125,19.25 30.25,18.0125 30.25,16.5 L30.25,2.75 C30.25,1.2375 29.0125,0 27.5,0 L5.5,0 C3.9875,0 2.75,1.2375 2.75,2.75 L2.75,16.5 C2.75,18.0125 3.9875,19.25 5.5,19.25 L0,19.25 L0,22 L33,22 L33,19.25 L27.5,19.25 L27.5,19.25 Z M5.5,2.75 L27.5,2.75 L27.5,16.5 L5.5,16.5 L5.5,2.75 L5.5,2.75 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="screen-lock-portrait" transform="translate(395.000000, 820.000000)" fill="#616161">
+                <path d="M14.5714286,0 L2.42857143,0 C1.09285714,0 0,1.10454545 0,2.45454545 L0,24.5454545 C0,25.8954545 1.09285714,27 2.42857143,27 L14.5714286,27 C15.9071429,27 17,25.8954545 17,24.5454545 L17,2.45454545 C17,1.10454545 15.9071429,0 14.5714286,0 L14.5714286,0 Z M2.42857143,22.0909091 L2.42857143,4.90909091 L14.5714286,4.90909091 L14.5714286,22.0909091 L2.42857143,22.0909091 Z" id="Shape"></path>
+            </g>
+            <g id="Group-12" transform="translate(310.000000, 677.000000)">
+                <g id="Group-2">
+                    <g id="Group-11-Copy-25">
+                        <g id="Group-10">
+                            <g id="Group-9">
+                                <use id="Rectangle-1781" stroke="#E0E0E0" mask="url(#mask-10)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-9"></use>
+                                <text id="Google-Load-Balancer" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                                    <tspan x="50.3066667" y="22">Google Load </tspan>
+                                    <tspan x="50.3066667" y="36">Balancer</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Load-Balancing_512px-Copy" transform="translate(15.000000, 11.000000)">
+                    <g id="Load-Balancing">
+                        <path d="M6.07929766,24.6810132 L0.337000781,14.3112895 C-0.112334245,13.499859 -0.112334245,12.5001353 0.337000781,11.6887048 L6.07929766,1.31898684 C6.52863346,0.507557268 7.35903893,0.00769659857 8.25770859,0.00769736842 L19.7422914,0.00769736842 C20.6409611,0.00769659857 21.4713665,0.507557268 21.9207023,1.31898684 L27.6629992,11.6887105 C28.1123342,12.500141 28.1123342,13.4998647 27.6629992,14.3112952 L21.9207023,24.6810132 C21.4713679,25.4924449 20.6409622,25.9923079 19.7422914,25.9923083 L8.25770859,25.9923083 C7.3590378,25.9923079 6.52863207,25.4924449 6.07929766,24.6810132 L6.07929766,24.6810132 Z" id="Shape" fill="url(#linearGradient-11)"></path>
+                        <g id="Clipped">
+                            <mask id="mask-13" fill="white">
+                                <use xlink:href="#path-12"></use>
+                            </mask>
+                            <use id="Shape" fill="#4285F4" xlink:href="#path-12"></use>
+                            <polygon id="Shape" fill="#3B77DB" mask="url(#mask-13)" points="17.2442266 8.0353114 11.9036641 9.88307895 10.7181484 10.6439211 12.4772812 12.4779474 9.953125 12.7149123 10.0078125 15.1849123 8.67710156 17.0482456 17.3245625 26.0641447 21.4375 26.2280702 26.383875 17.5644254"></polygon>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="13.6171875" y="10.4342105" width="0.765625" height="4.96052632"></rect>
+                        <path d="M9.82962422,12.2587719 L10.390625,12.2587719 L10.390625,15.6798246 L9.625,15.6798246 L9.625,12.4721145 C9.625,12.3542886 9.71661338,12.2587719 9.82962422,12.2587719 L9.82962422,12.2587719 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M17.609375,12.2587719 L18.1703758,12.2587719 C18.2833866,12.2587719 18.375,12.3542886 18.375,12.4721145 L18.375,15.6798246 L17.609375,15.6798246 L17.609375,12.2587719 L17.609375,12.2587719 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M9.82835547,12.2587719 L18.1716445,12.2587719 C18.2255778,12.2587719 18.277302,12.2811097 18.3154386,12.3208711 C18.3535751,12.3606325 18.375,12.4145605 18.375,12.4707917 L18.375,13.0570175 L9.625,13.0570175 L9.625,12.4707917 C9.625,12.3536964 9.71604534,12.2587719 9.82835547,12.2587719 L9.82835547,12.2587719 Z" id="Shape" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="10.6640625" y="7.98245614" width="6.671875" height="2.73684211" rx="0.15"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="12.578125" y="14.7105263" width="2.84375" height="2.39473684" rx="0.15"></rect>
+                        <path d="M8.5859375,14.8676517 C8.5859375,14.7808737 8.65623283,14.7105263 8.73882985,14.7105263 L11.2767951,14.7105263 C11.3612353,14.7105263 11.4296875,14.7697224 11.4296875,14.8676517 L11.4296875,16.9481378 C11.4296875,17.0349157 11.3593922,17.1052632 11.2767951,17.1052632 L8.73882985,17.1052632 C8.65438974,17.1052632 8.5859375,17.0460671 8.5859375,16.9481378 L8.5859375,14.8676517 Z" id="Rectangle-path" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="16.5703125" y="14.7105263" width="2.84375" height="2.39473684" rx="0.15"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-3-Copy-4" transform="translate(346.000000, 726.000000)">
+                <g id="Group-8">
+                    <polyline id="Stroke-242" stroke="#616161" points="21.2390582 1.6187921 21.239059 74.4796853 4.17561292 74.4796853 4.17561292 80.5292353"></polyline>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 79.271500) rotate(90.000000) translate(-4.032000, -79.271500) " points="2.546 76 2 76.586 4.89 79.271 2 81.957 2.546 82.543 6.064 79.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(21.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-21.032000, -2.271500) " points="19.546 -1 19 -0.414 21.89 2.271 19 4.957 19.546 5.543 23.064 2.271"></polygon>
+                </g>
+                <g id="Group-8-Copy" transform="translate(50.500000, 41.000000) scale(-1, 1) translate(-50.500000, -41.000000) translate(38.000000, 0.000000)">
+                    <polyline id="Stroke-242" stroke="#616161" points="21.2390582 1.6187921 21.2390582 74.5461908 4.17561292 74.5461908 4.17561292 80.5292353"></polyline>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 79.271500) rotate(90.000000) translate(-4.032000, -79.271500) " points="2.546 76 2 76.586 4.89 79.271 2 81.957 2.546 82.543 6.064 79.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(21.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-21.032000, -2.271500) " points="19.546 -1 19 -0.414 21.89 2.271 19 4.957 19.546 5.543 23.064 2.271"></polygon>
+                </g>
+            </g>
+            <g id="Group-15" transform="translate(456.000000, 35.000000)">
+                <use id="Fill-5-Copy" stroke="#616161" mask="url(#mask-15)" stroke-width="2" stroke-dasharray="2.5" xlink:href="#path-14"></use>
+                <path d="M32.1904762,163 C30.9802381,163 30,162.358583 30,161.566667 L30,35.4333333 C30,34.6414167 30.9802381,34 32.1904762,34 L211.809524,34 C213.019762,34 214,34.6414167 214,35.4333333 L214,161.566667 C214,162.358583 213.019762,163 211.809524,163 L32.1904762,163 Z" id="Fill-5-Copy" stroke="#E0E0E0" fill="#E1F5FE"></path>
+                <text id="Container-Engine" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="58" y="60">Kubernetes Engine</tspan>
+                </text>
+                <g id="Group-3-Copy-2" transform="translate(118.000000, 106.000000)">
+                    <path d="M4,12.5 L4,1.48864222" id="Stroke-242" stroke="#616161"></path>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 11.271500) rotate(90.000000) translate(-4.032000, -11.271500) " points="2.546 8 2 8.586 4.89 11.271 2 13.957 2.546 14.543 6.064 11.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(4.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-4.032000, -2.271500) " points="2.546 -1 2 -0.414 4.89 2.271 2 4.957 2.546 5.543 6.064 2.271"></polygon>
+                </g>
+                <g id="Group-10-Copy-7" transform="translate(37.000000, 71.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-17)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-16"></use>
+                    <text id="Jenkins-Master" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="43.5488281" y="21">Jenkins Master</tspan>
+                    </text>
+                </g>
+                <g id="Group-11" transform="translate(56.000000, 8.000000)">
+                    <rect id="Rectangle-1479" fill="#FFFFFF" x="0" y="2" width="126" height="13"></rect>
+                    <text id="Jenkins-Environment" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                        <tspan x="1" y="13">Jenkins Environment</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" transform="translate(454.000000, 280.000000)" fill="#4485F3">
+                <polygon id="Fill-4" points="7.46716698 6.31587596 9.90619137 7.71989382 12.3452158 6.31587596 12.3452158 3.50784025 9.90619137 2.10382239 7.46716698 3.50784025"></polygon>
+                <polygon id="Fill-5" points="10.8208255 12.045817 13.2598499 13.4498349 15.6988743 12.045817 15.6988743 9.23778132 13.2598499 7.83376346 10.8208255 9.23778132"></polygon>
+                <polygon id="Fill-6" points="4.11350844 12.1217402 6.55253283 13.5257581 8.99155722 12.1217402 8.99155722 9.31370453 6.55253283 7.90968668 4.11350844 9.31370453"></polygon>
+                <polygon id="Fill-7" points="4.41838649 2.61652418 1.9793621 4.0187206 1.9793621 13.0909527 4.41838649 14.492542 4.41838649 16.6448635 0.150093809 14.1898813 0.150093809 2.91948846 4.41838649 0.466024176"></polygon>
+                <polygon id="Fill-8" points="15.3939962 2.61652418 17.8330206 4.0187206 17.8330206 13.0909527 15.3939962 14.492542 15.3939962 16.6448635 19.6622889 14.1898813 19.6622889 2.91948846 15.3939962 0.466024176"></polygon>
+            </g>
+            <path d="M508.778238,84.8809102 L501.756645,80.8272651 C501.50902,80.6843243 501.204159,80.6843243 500.956533,80.8272651 L493.93494,84.8809102 C493.687314,85.023851 493.534884,85.2880838 493.534884,85.5739652 L493.534884,93.6815522 C493.534884,93.9677302 493.687314,94.2316664 493.93494,94.3746071 L500.956533,98.4285489 C501.204159,98.5714896 501.50902,98.5714896 501.756645,98.4285489 L508.778238,94.3746071 C509.025864,94.2316664 509.178295,93.9677302 509.178295,93.6815522 L509.178295,85.5739652 C509.178295,85.2880838 509.025864,85.023851 508.778238,84.8809102 L508.778238,84.8809102 Z M507.814723,92.9048679 L505.365158,91.490585 L505.365158,87.765229 L501.747749,89.8535873 L501.747749,94.0308969 L504.973998,92.1679224 L507.42386,93.5822054 L501.356589,97.0851432 L495.289318,93.5822054 L497.73918,92.1679224 L500.96543,94.0308969 L500.96543,89.8535873 L497.348021,87.765229 L497.348021,91.490585 L494.898455,92.9048679 L494.898455,85.8992889 L500.96543,82.3963511 L500.96543,85.224917 L497.73918,87.087595 L501.356589,89.1762498 L504.973998,87.087595 L501.747749,85.224917 L501.747749,82.3963511 L507.814723,85.8992889 L507.814723,92.9048679 L507.814723,92.9048679 Z" id="Fill-4" fill="#4386F9"></path>
+            <path d="M181.243355,276.160851 L174.221762,272.107206 C173.974136,271.964265 173.669275,271.964265 173.421649,272.107206 L166.400056,276.160851 C166.152431,276.303791 166,276.568024 166,276.853906 L166,284.961493 C166,285.247671 166.152431,285.511607 166.400056,285.654548 L173.421649,289.708489 C173.669275,289.85143 173.974136,289.85143 174.221762,289.708489 L181.243355,285.654548 C181.49098,285.511607 181.643411,285.247671 181.643411,284.961493 L181.643411,276.853906 C181.643411,276.568024 181.49098,276.303791 181.243355,276.160851 L181.243355,276.160851 Z M180.279839,284.184808 L177.830274,282.770525 L177.830274,279.045169 L174.212865,281.133528 L174.212865,285.310837 L177.439114,283.447863 L179.888976,284.862146 L173.821705,288.365084 L167.754434,284.862146 L170.204296,283.447863 L173.430546,285.310837 L173.430546,281.133528 L169.813137,279.045169 L169.813137,282.770525 L167.363572,284.184808 L167.363572,277.179229 L173.430546,273.676292 L173.430546,276.504857 L170.204296,278.367535 L173.821705,280.45619 L177.439114,278.367535 L174.212865,276.504857 L174.212865,273.676292 L180.279839,277.179229 L180.279839,284.184808 L180.279839,284.184808 Z" id="Fill-4-Copy" fill="#407CE0"></path>
+            <g id="Group-7" transform="translate(170.000000, 447.000000)">
+                <use id="Fill-5-Copy-4" stroke="#616161" mask="url(#mask-19)" stroke-width="2" stroke-dasharray="2.5" xlink:href="#path-18"></use>
+                <path d="M28.4208757,163 C25.9783419,163 24,162.358583 24,161.566667 L24,35.4333333 C24,34.6414167 25.9783419,34 28.4208757,34 L390.932681,34 C393.375214,34 395.353556,34.6414167 395.353556,35.4333333 L395.353556,161.566667 C395.353556,162.358583 393.375214,163 390.932681,163 L28.4208757,163 Z" id="Fill-5-Copy-5" stroke="#E0E0E0" fill="#E1F5FE"></path>
+                <g id="Group-10-Copy-10" transform="translate(30.000000, 119.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-21)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-20"></use>
+                    <text id="Canary-Frontend" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="40.6132812" y="21">Canary Frontend</tspan>
+                    </text>
+                </g>
+                <g id="Group-10-Copy-2" transform="translate(30.000000, 71.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-23)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-22"></use>
+                    <text id="Canary-Backend" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="41.3544922" y="21">Canary Backend</tspan>
+                    </text>
+                </g>
+                <g id="Group-3-Copy-4" transform="translate(109.000000, 104.000000)">
+                    <path d="M4,12.5 L4,1.48864222" id="Stroke-242" stroke="#616161"></path>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 11.271500) rotate(90.000000) translate(-4.032000, -11.271500) " points="2.546 8 2 8.586 4.89 11.271 2 13.957 2.546 14.543 6.064 11.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(4.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-4.032000, -2.271500) " points="2.546 -1 2 -0.414 4.89 2.271 2 4.957 2.546 5.543 6.064 2.271"></polygon>
+                </g>
+                <g id="Group-3-Copy-5" transform="translate(300.000000, 104.000000)">
+                    <path d="M4,12.5 L4,1.48864222" id="Stroke-242" stroke="#616161"></path>
+                    <polygon id="Fill-244" fill="#616161" transform="translate(4.032000, 11.271500) rotate(90.000000) translate(-4.032000, -11.271500) " points="2.546 8 2 8.586 4.89 11.271 2 13.957 2.546 14.543 6.064 11.271"></polygon>
+                    <polygon id="Fill-244-Copy" fill="#616161" transform="translate(4.032000, 2.271500) scale(1, -1) rotate(90.000000) translate(-4.032000, -2.271500) " points="2.546 -1 2 -0.414 4.89 2.271 2 4.957 2.546 5.543 6.064 2.271"></polygon>
+                </g>
+                <g id="Group-10-Copy-11" transform="translate(219.000000, 71.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-25)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-24"></use>
+                    <text id="Production-Backend" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="30.9013672" y="21">Production Backend</tspan>
+                    </text>
+                </g>
+                <g id="Group-10-Copy-3" transform="translate(219.000000, 119.000000)">
+                    <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-27)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-26"></use>
+                    <text id="Production-Frontend" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                        <tspan x="30.1601563" y="21">Production Frontend</tspan>
+                    </text>
+                </g>
+            </g>
+            <polygon id="Fill-244" fill="#616161" points="195.2855 529.7605 194.7395 530.3465 197.6295 533.0315 194.7395 535.7175 195.2855 536.3035 198.8035 533.0315"></polygon>
+            <polygon id="Fill-244-Copy-6" fill="#616161" transform="translate(562.032000, 533.271500) scale(-1, 1) translate(-562.032000, -533.271500) " points="560.546 530 560 530.586 562.89 533.271 560 535.957 560.546 536.543 564.064 533.271"></polygon>
+            <polygon id="Fill-244-Copy-5" fill="#616161" points="195.546 580 195 580.586 197.89 583.271 195 585.957 195.546 586.543 199.064 583.271"></polygon>
+            <polygon id="Fill-244-Copy-7" fill="#616161" transform="translate(562.032000, 583.271500) scale(-1, 1) translate(-562.032000, -583.271500) " points="560.546 580 560 580.586 562.89 583.271 560 585.957 560.546 586.543 564.064 583.271"></polygon>
+            <text id="Production-Environme" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                <tspan x="304" y="469">Production Environment</tspan>
+            </text>
+            <path d="M456.50394,323.69625 L374.499753,323.69625" id="Path-4211" stroke="#616161"></path>
+            <polyline id="Path-4212" stroke="#616161" points="92.6203132 136.98051 92.6203132 365.602923 161.519979 365.602916"></polyline>
+            <polyline id="Path-4213" stroke="#616161" points="550.141194 333.730636 550.141194 429.206175 609.364228 429.206176 609.364228 583.566115 560.977666 583.566115"></polyline>
+            <polyline id="Path-4213-Copy" stroke="#616161" points="532.308456 336.720053 532.308456 429.044823 147.860549 429.044823 147.860549 583.126602 198.037414 583.126608"></polyline>
+            <polyline id="Path-4215" stroke="#616161" points="283.053313 600.346608 283.053313 644.958797 360.150519 644.958797 360.150519 674.047818"></polyline>
+            <polyline id="Path-4215-Copy" stroke="#616161" transform="translate(434.548603, 636.912609) scale(-1, 1) translate(-434.548603, -636.912609) " points="396 600 396 644.612189 473.097205 644.612189 473.097206 673.825218"></polyline>
+            <path d="M216.243355,495.160851 L209.221762,491.107206 C208.974136,490.964265 208.669275,490.964265 208.421649,491.107206 L201.400056,495.160851 C201.152431,495.303791 201,495.568024 201,495.853906 L201,503.961493 C201,504.247671 201.152431,504.511607 201.400056,504.654548 L208.421649,508.708489 C208.669275,508.85143 208.974136,508.85143 209.221762,508.708489 L216.243355,504.654548 C216.49098,504.511607 216.643411,504.247671 216.643411,503.961493 L216.643411,495.853906 C216.643411,495.568024 216.49098,495.303791 216.243355,495.160851 L216.243355,495.160851 Z M215.279839,503.184808 L212.830274,501.770525 L212.830274,498.045169 L209.212865,500.133528 L209.212865,504.310837 L212.439114,502.447863 L214.888976,503.862146 L208.821705,507.365084 L202.754434,503.862146 L205.204296,502.447863 L208.430546,504.310837 L208.430546,500.133528 L204.813137,498.045169 L204.813137,501.770525 L202.363572,503.184808 L202.363572,496.179229 L208.430546,492.676292 L208.430546,495.504857 L205.204296,497.367535 L208.821705,499.45619 L212.439114,497.367535 L209.212865,495.504857 L209.212865,492.676292 L215.279839,496.179229 L215.279839,503.184808 L215.279839,503.184808 Z" id="Fill-4-Copy-2" fill="#4486F6"></path>
+            <polyline id="Path-4210" stroke="#616161" points="578.129317 163.410295 578.129317 250.223463 534.860373 250.223463 534.860373 304.615288"></polyline>
+            <g id="Group-28" transform="translate(238.000000, 80.000000)" fill="#4386F9">
+                <path d="M17.232093,5.36434109 L14.5570543,0.731162791 C14.4463566,0.539224806 14.2413953,0.421085271 14.02,0.421085271 L8.66992248,0.421085271 C8.44852713,0.421085271 8.24356589,0.539224806 8.13286822,0.731162791 L5.45813953,5.36434109 C5.34713178,5.55627907 5.34713178,5.79255814 5.45813953,5.98449612 L8.13286822,10.6176744 C8.24356589,10.8096124 8.44852713,10.9277519 8.66992248,10.9277519 L14.02,10.9277519 C14.2413953,10.9277519 14.4463566,10.8096124 14.5570543,10.6176744 L17.232093,5.98449612 C17.3427907,5.79255814 17.3427907,5.55627907 17.232093,5.36434109 L17.232093,5.36434109 Z M11.3449612,7.95193798 C10.0872868,7.95193798 9.06775194,6.93209302 9.06775194,5.6744186 C9.06775194,4.41674419 10.0872868,3.39689922 11.3449612,3.39689922 C12.6026357,3.39689922 13.6224806,4.41674419 13.6224806,5.6744186 C13.6224806,6.93209302 12.6026357,7.95193798 11.3449612,7.95193798 L11.3449612,7.95193798 Z" id="Fill-4"></path>
+                <path d="M20.4624806,5.86511628 L18.555814,9.16775194 C18.4091473,9.4220155 18.5924031,9.73953488 18.8857364,9.73953488 L20.028062,9.73953488 C20.164186,9.73953488 20.2900775,9.66666667 20.3579845,9.54883721 L22.4851163,5.86511628 C22.5530233,5.74697674 22.5530233,5.60186047 22.4851163,5.48403101 L20.3579845,1.8 C20.2897674,1.68186047 20.164186,1.60930233 20.028062,1.60930233 L18.8857364,1.60930233 C18.5924031,1.60930233 18.4088372,1.92682171 18.5555039,2.18108527 L20.4624806,5.48403101 C20.5306977,5.60186047 20.5306977,5.74697674 20.4624806,5.86511628" id="Fill-5"></path>
+                <path d="M2.66186047,9.73953488 L3.80418605,9.73953488 C4.09751938,9.73953488 4.28077519,9.4220155 4.13410853,9.16775194 L2.22744186,5.86511628 C2.15922481,5.74697674 2.15922481,5.60186047 2.22744186,5.48403101 L4.1344186,2.18108527 C4.28108527,1.92682171 4.09751938,1.60930233 3.80418605,1.60930233 L2.66186047,1.60930233 C2.52573643,1.60930233 2.40015504,1.68186047 2.33193798,1.8 L0.204806202,5.48403101 C0.136899225,5.60186047 0.136899225,5.74697674 0.204806202,5.86511628 L2.33193798,9.54883721 C2.39984496,9.66666667 2.52573643,9.73953488 2.66186047,9.73953488" id="Fill-6"></path>
+            </g>
+            <g id="Group-18" transform="translate(221.000000, 492.000000)">
+                <rect id="Rectangle-1559" fill="#E1F5FE" x="0" y="0" width="106" height="16"></rect>
+                <text id="Container-Engine" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="1" y="13">Kubernetes Engine</tspan>
+                </text>
+            </g>
+            <g id="Group-18" transform="translate(480.000000, 281.000000)">
+                <rect id="Rectangle-1559" fill="#E1F5FE" x="0" y="0" width="106" height="16"></rect>
+                <text id="Container-Registry" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="1" y="13">Container Registry</tspan>
+                </text>
+            </g>
+            <g id="Group-18" transform="translate(325.000000, 781.000000)">
+                <rect id="Rectangle-1559" fill="#FEF6E0" x="0" y="0" width="106" height="16"></rect>
+                <text id="End-Users" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                    <tspan x="1" y="13">End Users</tspan>
+                </text>
+            </g>
+            <polygon id="Fill-244" fill="#616161" transform="translate(360.271500, 673.032000) rotate(90.000000) translate(-360.271500, -673.032000) " points="358.7855 669.7605 358.2395 670.3465 361.1295 673.0315 358.2395 675.7175 358.7855 676.3035 362.3035 673.0315"></polygon>
+            <polygon id="Fill-244-Copy-2" fill="#616161" transform="translate(396.271500, 673.032000) rotate(90.000000) translate(-396.271500, -673.032000) " points="394.7855 669.7605 394.2395 670.3465 397.1295 673.0315 394.2395 675.7175 394.7855 676.3035 398.3035 673.0315"></polygon>
+            <polygon id="Fill-244-Copy-3" fill="#616161" transform="translate(473.271500, 601.032000) scale(1, -1) rotate(90.000000) translate(-473.271500, -601.032000) " points="471.7855 597.7605 471.2395 598.3465 474.1295 601.0315 471.2395 603.7175 471.7855 604.3035 475.3035 601.0315"></polygon>
+            <polygon id="Fill-244-Copy-4" fill="#616161" transform="translate(283.271500, 601.032000) scale(1, -1) rotate(90.000000) translate(-283.271500, -601.032000) " points="281.7855 597.7605 281.2395 598.3465 284.1295 601.0315 281.2395 603.7175 281.7855 604.3035 285.3035 601.0315"></polygon>
+            <polygon id="Fill-244" fill="#616161" transform="translate(375.032000, 323.771500) scale(-1, 1) translate(-375.032000, -323.771500) " points="373.546 320.5 373 321.086 375.89 323.771 373 326.457 373.546 327.043 377.064 323.771"></polygon>
+            <g id="Group-10-Copy-9" transform="translate(454.000000, 307.000000)">
+                <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-29)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-28"></use>
+                <text id="Docker-Images" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                    <tspan x="44.5332031" y="21">Docker Images</tspan>
+                </text>
+            </g>
+            <g id="Group-10" transform="translate(493.000000, 157.000000)">
+                <use id="Rectangle-1759" stroke="#E0E0E0" mask="url(#mask-31)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-30"></use>
+                <text id="Jenkins-Agent" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#212121">
+                    <tspan x="46.5839844" y="21">Jenkins Agent</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(50.000000, 68.000000)">
+                <g id="Group-13">
+                    <g id="Group-2-Copy-3">
+                        <path d="M1.42857143,89 C0.639285714,89 0,88.5574722 0,88.0111111 L0,0.988888889 C0,0.442527778 0.639285714,0 1.42857143,0 L118.571429,0 C119.360714,0 120,0.442527778 120,0.988888889 L120,88.0111111 C120,88.5574722 119.360714,89 118.571429,89 L1.42857143,89 Z" id="Fill-5" stroke="#E0E0E0" fill="#E2F3EB"></path>
+                        <text id="Developers" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.1428" fill="#000000">
+                            <tspan x="10" y="21">Developers</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(8.000000, 35.000000)">
+                        <g id="Group" stroke="#E0E0E0" fill="#FFFFFF">
+                            <path d="M1.03438006,47.5 C0.737670136,47.5 0.496212121,46.827 0.496212121,46 L0.496212121,2 C0.496212121,1.173 0.737670136,0.5 1.03438006,0.5 L46.9580442,0.5 C47.2547541,0.5 47.4962121,1.173 47.4962121,2 L47.4962121,46 C47.4962121,46.827 47.2547541,47.5 46.9580442,47.5 L1.03438006,47.5 Z" id="Fill-1"></path>
+                        </g>
+                        <g id="Group-Copy" transform="translate(54.000000, 0.000000)" stroke="#E0E0E0" fill="#FFFFFF">
+                            <path d="M1.03438006,47.5 C0.737670136,47.5 0.496212121,46.827 0.496212121,46 L0.496212121,2 C0.496212121,1.173 0.737670136,0.5 1.03438006,0.5 L46.9580442,0.5 C47.2547541,0.5 47.4962121,1.173 47.4962121,2 L47.4962121,46 C47.4962121,46.827 47.2547541,47.5 46.9580442,47.5 L1.03438006,47.5 Z" id="Fill-1"></path>
+                        </g>
+                        <g id="laptop" transform="translate(8.000000, 13.000000)" fill="#616161">
+                            <path d="M27.5,19.25 C29.0125,19.25 30.25,18.0125 30.25,16.5 L30.25,2.75 C30.25,1.2375 29.0125,0 27.5,0 L5.5,0 C3.9875,0 2.75,1.2375 2.75,2.75 L2.75,16.5 C2.75,18.0125 3.9875,19.25 5.5,19.25 L0,19.25 L0,22 L33,22 L33,19.25 L27.5,19.25 L27.5,19.25 Z M5.5,2.75 L27.5,2.75 L27.5,16.5 L5.5,16.5 L5.5,2.75 L5.5,2.75 Z" id="Shape"></path>
+                        </g>
+                        <g id="laptop-copy" transform="translate(61.000000, 13.000000)" fill="#616161">
+                            <path d="M27.5,19.25 C29.0125,19.25 30.25,18.0125 30.25,16.5 L30.25,2.75 C30.25,1.2375 29.0125,0 27.5,0 L5.5,0 C3.9875,0 2.75,1.2375 2.75,2.75 L2.75,16.5 C2.75,18.0125 3.9875,19.25 5.5,19.25 L0,19.25 L0,22 L33,22 L33,19.25 L27.5,19.25 L27.5,19.25 Z M5.5,2.75 L27.5,2.75 L27.5,16.5 L5.5,16.5 L5.5,2.75 L5.5,2.75 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path d="M148.356357,533.063832 L197.453008,533.063832" id="Path-4575" stroke="#616161"></path>
+            <path d="M561,533 L610.096651,533" id="Path-4575-Copy" stroke="#616161"></path>
+            <text id="Developer-commits-co" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" line-spacing="21" fill="#9E9E9E">
+                <tspan x="36" y="710">Developer commits code to development branch</tspan>
+                <tspan x="36" y="731">Tests get kicked off and container image built</tspan>
+                <tspan x="36" y="752">Container image uploaded to Container Registry</tspan>
+                <tspan x="36" y="773">Developer environment deployed</tspan>
+                <tspan x="36" y="794">Iterate &amp; test then commit to canary branch</tspan>
+                <tspan x="36" y="815">Container image promoted to canary </tspan>
+                <tspan x="36" y="836">Container image promoted to production</tspan>
+            </text>
+            <g id="Group-14-Copy" transform="translate(18.000000, 727.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="2" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">2</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-2" transform="translate(572.000000, 223.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="3" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">3</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-8" transform="translate(18.000000, 748.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="3" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">3</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-3" transform="translate(404.000000, 318.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="4" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">4</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-9" transform="translate(18.000000, 770.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="4" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">4</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-5" transform="translate(87.000000, 251.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="5" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">5</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-10" transform="translate(18.000000, 790.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="5" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">5</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-6" transform="translate(544.000000, 377.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="7" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">7</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-6" transform="translate(526.000000, 377.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="6" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">6</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-11" transform="translate(18.000000, 811.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="6" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">6</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-11" transform="translate(18.000000, 832.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="7" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">7</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-4" transform="translate(193.000000, 115.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="1" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">1</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-4" transform="translate(425.000000, 115.000000)">
+                <circle id="Oval-196" fill="#03A9F4" cx="6" cy="6" r="6"></circle>
+                <text id="2" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">2</tspan>
+                </text>
+            </g>
+            <g id="Group-14-Copy-7" transform="translate(18.000000, 706.000000)">
+                <ellipse id="Oval-196" fill="#03A9F4" cx="6" cy="6" rx="6" ry="6"></ellipse>
+                <text id="1" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="3.5" y="9">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
