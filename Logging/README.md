@@ -50,11 +50,13 @@ Docker compose를 여러 컨테이너 같은 머신에서 실행할 수 있도�
 ```shell
 # docker compose 설치
 $ sudo apt install docker-compose
+
+$ sudo sysctl -w vm.max_map_count=262144
 ```
 
 아래의 yaml 파일을 이용해 4개의 컨테이너를 기동할 수 있다. 
 ```yaml
-version: '2'
+version: '3'
 services:
   web:
     image: httpd
@@ -68,29 +70,29 @@ services:
         fluentd-address: localhost:24224
         tag: httpd.access
 
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.2.4
+    environment:
+      discovery.type: single-node
+    ports:
+      - 9200:9200
+      - 9300:9300
+
   fluentd:
     build: ./fluentd
     volumes:
       - ./fluentd/conf:/fluentd/etc
-    links:
-      - "elasticsearch"
+      - ./logs:/logs
     ports:
       - "24224:24224"
       - "24224:24224/udp"
 
-  elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.7.2
-    expose:
-      - 9200
-    ports:
-      - "9200:9200"
-
   kibana:
-    image: kibana:6.8.1
-    links:
-      - "elasticsearch"
+    image: docker.elastic.co/kibana/kibana:6.2.4
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
     ports:
-      - "5601:5601"
+      - 5601:5601
 
 ```
 
@@ -110,17 +112,21 @@ RUN ["gem", "install", "fluent-plugin-elasticsearch", "--no-rdoc", "--no-ri", "-
 docker가 forward하는 log를 Elasticsearch로 전달한다. 
 ```conf
 # fluentd/conf/fluent.conf
+# Set Fluentd to listen via http on port 8080, listening on all hosts
 <source>
   @type forward
   port 24224
   bind 0.0.0.0
 </source>
+
 <match *.**>
   @type copy
   <store>
     @type elasticsearch
     host elasticsearch
     port 9200
+#    index_name fluentd
+#    type_name fluentd
     logstash_format true
     logstash_prefix fluentd
     logstash_dateformat %Y%m%d
@@ -156,17 +162,9 @@ b7b439415898        elasticsearch              "/docker-entrypoin..."   About an
 
 
 ```bash
-$ repeat 10 curl http://localhost:80/
+$ watch -n 1 curl http://localhost:80/
 <html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
-<html><body><h1>It works!</h1></body></html>
+
 
 ```
 
