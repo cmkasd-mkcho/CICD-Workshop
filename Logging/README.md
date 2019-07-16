@@ -2,18 +2,17 @@
 
 
 ```bash
-$ docker run --name logtest debian sh -c 'echo "stdout"; echo "stderr" >&2’   
-stderr   
-stdout  
-
-$ docker logs logtest   
-stderr   
+$ docker run --name logtest debian sh -c 'echo "stdout"; echo "stderr" >&2’
+stderr
 stdout
 
-$ docker logs -t logtest 		// -t 파라미터를 이용하면 타임스탬프를 보여준다.    
-2015-04-27T10:30:54.002057314Z stderr    
-2015-04-27T10:30:54.005335068Z stdout
+$ docker logs logtest   
+stderr  
+stdout
 
+$ docker logs -t logtest 		// -t 파라미터를 이용하면 타임스탬프를 보여준다.   
+2019-06-27T10:30:54.002057314Z stderr   
+2019-06-27T10:30:54.005335068Z stdout
 $ docker run -d --name streamtest debian \
       sh -c 'while true; do echo "tick"; sleep 1;done;’.  
 13aa6ee6406a998350781f994b23ce69ed6c38daa69c2c83263c863337a38ef9
@@ -45,7 +44,7 @@ tick
 
 `httpd`의 모든 logs를 EFK로 적재하게 된다. 
 
-##Step 0 : docker-compose.yml 파일 준비
+## Step 0 : docker-compose.yml 파일 준비
 Docker compose를 여러 컨테이너 같은 머신에서 실행할 수 있도록 하는 툴이다.
 
 아래의 yaml 파일을 이용해 4개의 컨테이너를 기동할 수 있다. 
@@ -131,7 +130,7 @@ docker가 forward하는 log를 Elasticsearch로 전달한다.
 </match>
 ```
 
-##Step 2: Container 실행
+## Step 2: Container 실행
 
 컨테이너 실행
 ```bash
@@ -148,7 +147,7 @@ a1b15a7210f6        dockercomposeefk_fluentd   "/bin/sh -c 'exec ..."   About an
 b7b439415898        elasticsearch              "/docker-entrypoin..."   About an hour ago   Up 50 seconds       0.0.0.0:9200->9200/tcp, 9300/tcp                               dockercomposeefk_elasticsearch_1
 ```
 
-##Step 3 : httpd access log 생성
+## Step 3 : httpd access log 생성
 
 
 ```bash
@@ -166,7 +165,7 @@ $ repeat 10 curl http://localhost:80/
 
 ```
 
-##Step 4: Kibana에서 log 확인
+## Step 4: Kibana에서 log 확인
 
 http://localhost:5601/로 접속해서 "index name or pattern"에 `fluentd-*`를 생성한다.  
 ![](img/2.png)
