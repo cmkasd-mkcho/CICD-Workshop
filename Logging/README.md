@@ -13,7 +13,7 @@ stdout
 $ docker logs -t logtest 		// -t 파라미터를 이용하면 타임스탬프를 보여준다.   
 2019-06-27T10:30:54.002057314Z stderr   
 2019-06-27T10:30:54.005335068Z stdout
-$ docker run -d --name streamtest debian \
+$ docker run -d --name streamtest debian \
       sh -c 'while true; do echo "tick"; sleep 1;done;’.  
 13aa6ee6406a998350781f994b23ce69ed6c38daa69c2c83263c863337a38ef9
 $ docker logs -f streamtest.    // –f를 이용하면 실행중인 컨테이너의 로그를 스트림할 수 있다
