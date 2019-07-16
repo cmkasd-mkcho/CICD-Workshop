@@ -91,7 +91,7 @@ services:
 
 `web`:`logging`:`driver`에 정의되어 있는 주소로 자동으로 log가 forward 될 것이다. 
 
-##Step 1: 설정을 추가한 Fluentd image 준비
+## Step 1: 설정을 추가한 Fluentd image 준비
 
 아래와 같은 `fluentd/Dockerfile`을 준비해서 Fluentd 공식 image에 Elasticsearch plugin을 install 한다. 
 
