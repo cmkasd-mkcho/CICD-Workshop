@@ -47,6 +47,11 @@ tick
 ## Step 0 : docker-compose.yml 파일 준비
 Docker compose를 여러 컨테이너 같은 머신에서 실행할 수 있도록 하는 툴이다.
 
+```shell
+# docker compose 설치
+$ sudo apt install docker-compose
+```
+
 아래의 yaml 파일을 이용해 4개의 컨테이너를 기동할 수 있다. 
 ```yaml
 version: '2'
@@ -74,7 +79,7 @@ services:
       - "24224:24224/udp"
 
   elasticsearch:
-    image: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch
     expose:
       - 9200
     ports:
